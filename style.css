@@ -10,9 +10,6 @@
     box-sizing: border-box;
 }
 
-body {
-}
-
 nav {
     text-align: center;
     padding-bottom: 0px;
@@ -26,41 +23,21 @@ nav ul {
 nav li {
     display: inline-block;
     text-transform: lowercase;
-    text-align: left;
     padding-right: 40px;
     font-style: italic;
 }
 
-header {
-    border: 5px solid var(--goldenrod);
-    background-image: url("makerspacestock.jpg");
-    height:600px;
-    background-position: center;
-    width: 100%;
-    border-radius: 5%;
-
+nav li a {
+    color:#000;
+    text-decoration: none;
 }
 
-header h1 {
-    color: var(--persian-plum);
-    font-family: 'Mukta';
-    font-size:3.0em;
-    font-weight: 3000;
-    letter-spacing: 0.5em;
-    text-transform: uppercase;
-    line-height: 2em;
-    text-align: right;
-    background-color:rgb(255, 230, 196, 0.7);
-    padding:20px;
-    width: 28%;
-    position: relative;
-    top: 30%;
-    left: 50%;
-    text-shadow: 4px 6px #000;
-    text-shadow: 3px 4px var(--goldenrod);
+nav li a:hover {
+    color: rgb(132, 132, 132);
 }
 
-
-
+nav li a:active {
+    color:rgb(108, 34, 27);
+}
 
 
